@@ -1,0 +1,10 @@
+^C:\LOCALD\SEM5\MOBILE_APPLICATION\MOBILE_APP\WINDOWS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/localD/sem5/Mobile_application/mobile_app/windows -BC:/localD/sem5/Mobile_application/mobile_app/build/windows --check-stamp-file C:/localD/sem5/Mobile_application/mobile_app/build/windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

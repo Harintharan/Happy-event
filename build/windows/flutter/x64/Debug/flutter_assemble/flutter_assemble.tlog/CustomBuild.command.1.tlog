@@ -1,0 +1,28 @@
+^C:\LOCALD\SEM5\MOBILE_APPLICATION\MOBILE_APP\BUILD\WINDOWS\CMAKEFILES\61C53452C9728DE0203AD2EDFDAB3A3D\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter\flutter_windows_3.13.9-stable\flutter PROJECT_DIR=C:\localD\sem5\Mobile_application\mobile_app FLUTTER_ROOT=C:\flutter\flutter_windows_3.13.9-stable\flutter FLUTTER_EPHEMERAL_DIR=C:\localD\sem5\Mobile_application\mobile_app\windows\flutter\ephemeral PROJECT_DIR=C:\localD\sem5\Mobile_application\mobile_app FLUTTER_TARGET=C:\localD\sem5\Mobile_application\mobile_app\lib\main.dart DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl,RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC8wNTQ1Zjg3MDVkZjMwMTg3N2Q3ODcxMDdiYWMxYTZlOWZjOWVlMWFkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\localD\sem5\Mobile_application\mobile_app\.dart_tool\package_config.json C:/flutter/flutter_windows_3.13.9-stable/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\LOCALD\SEM5\MOBILE_APPLICATION\MOBILE_APP\BUILD\WINDOWS\CMAKEFILES\36776892C32C03F049DD7DB648DBA3D7\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\LOCALD\SEM5\MOBILE_APPLICATION\MOBILE_APP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/localD/sem5/Mobile_application/mobile_app/windows -BC:/localD/sem5/Mobile_application/mobile_app/build/windows --check-stamp-file C:/localD/sem5/Mobile_application/mobile_app/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

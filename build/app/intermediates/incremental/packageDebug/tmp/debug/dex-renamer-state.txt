@@ -1,0 +1,4 @@
+#Thu Jan 11 15:58:54 IST 2024
+base.0=C\:\\localD\\sem5\\Mobile_application\\mobile_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
